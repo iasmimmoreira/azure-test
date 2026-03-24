@@ -1,0 +1,9 @@
+{
+	"name": "servicosbostoncontadf",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6110e5da-b960-46d9-9859-5550404d10c5",
+		"tenantId": "3af40d40-1827-4274-b0ae-d9f58a996a46"
+	}
+}
