@@ -1,0 +1,33 @@
+{
+	"name": "ds_boston_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragels",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dados_boston.zip",
+				"container": "servicosbostonzip"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "ZipDeflate",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000apx\\�lq\f;�f\u0001\u000b��\u0006\u000e\u0000\u0000\u0000dados_2016.csv��r�H�?���O\u0001�5�̘���\u000f~\u001a�%u�\u001aR��Y\u001b3Y��ȜJfr�\u0010��4�",
+				"type": "String"
+			},
+			{
+				"name": "�d�\u001e\u0011�\u0004�ȃ�Q�ު�n�HD \t���~9^V����'��O������}�Z�����xq]����|Y]���O��m5��u��x�^�O׋�Ӣ\u001a/�3��j��V����V��Q�d�pW��k]���Uu7^�n��",
+				"type": "String"
+			}
+		]
+	}
+}
